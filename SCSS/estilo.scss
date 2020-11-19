@@ -1,0 +1,84 @@
+@import "fuente";
+@import "colores";
+header{
+    background-color: $colorRojo;
+    .titulo1{
+        font-family: $font-family;
+        font-size: 50px-25px;
+        color:$colorAmarillo;
+        background-color: $colorRojo;}
+        .titulo2{
+            font-family: $font-family;
+            font-size:px;
+            color: $colorAmarillo;
+            background-color: $colorRojo;
+        }
+}
+.fondo{
+    background-color: $colorAmarillo;
+}
+.menu{
+    font-family: $font-family;
+    background-color: $colorRojo;
+    font-size: 20px;
+    a{
+        color: $colorPredom;
+        transition: all 1s;
+    }
+    a:hover{
+        background-color: $colorPredom;
+        color: $colorRojo;
+    }
+}
+footer{
+    font-family: $font-family;
+    color: $colorPredom;
+    background-color: $colorRojo;
+    font-size: 20px;
+    .sultan{
+        background-color:$colorLogo;
+        border-radius: 10px;
+    }
+}
+p{
+    color: black;
+    font-family: $font-family;
+}
+.tituloSecundario{
+    color: $colorRojo;
+    font-family: $font-family;
+    font-size: 20px;
+}
+h1{
+    color: $colorRojo;
+    font-family: $font-family;
+    font-size: 30px;
+}
+h2{
+    color:$colorPredom;
+    font-family: $font-family;
+    font-size: 30px;
+}
+.tipoPlato{
+    color: $colorPredom;
+    font-family: $font-family;
+    font-size: 20px;
+    background-color: $colorRojo;
+}
+ul{
+    list-style: none;
+    li{font-family: $font-family;
+        margin: 10px 100px 10px 100px;
+        font-size: 17px;
+    }
+}
+.noticias{
+    background-color: $colorRojo;
+    font-family: $font-family;
+    color: $colorPredom;
+}
+.formContacto{
+    font-family: $font-family;
+    color: $colorPredom;
+    background-color: $colorRojo;
+}
