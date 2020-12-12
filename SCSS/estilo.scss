@@ -4,12 +4,12 @@ header{
     background-color: $colorRojo;
     .titulo1{
         font-family: $font-family;
-        font-size: 50px-25px;
+        font-size: 25px;
         color:$colorAmarillo;
         background-color: $colorRojo;}
         .titulo2{
             font-family: $font-family;
-            font-size:px;
+            font-size:15px;
             color: $colorAmarillo;
             background-color: $colorRojo;
         }
@@ -20,7 +20,7 @@ header{
 .menu{
     font-family: $font-family;
     background-color: $colorRojo;
-    font-size: 20px;
+    font-size: 15px;
     a{
         color: $colorPredom;
         transition: all 1s;
@@ -34,7 +34,7 @@ footer{
     font-family: $font-family;
     color: $colorPredom;
     background-color: $colorRojo;
-    font-size: 20px;
+    font-size: 15px;
     .sultan{
         background-color:$colorLogo;
         border-radius: 10px;
@@ -81,4 +81,9 @@ ul{
     font-family: $font-family;
     color: $colorPredom;
     background-color: $colorRojo;
+    font-size: 15px;
 }
+.form-control{
+    font-size: 15px;
+}
+
